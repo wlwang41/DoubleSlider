@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  DoubleSlider
+//
+//  Created by RavenLung on 3/5/16.
+//  Copyright © 2016 spider. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define MAS_SHORTHAND
+#import "Masonry.h"
+
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#define debugMethod() NSLog(@"%s", __func__)
+#else
+#define NSLog(...)
+#define debugMethod()
+#endif
+
+#define SCREEN_WIDTH    [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT   [[UIScreen mainScreen] bounds].size.height
+
+#define Font(x) [UIFont systemFontOfSize:x]
+
+#endif /* PrefixHeader_pch */

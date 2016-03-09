@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13DBF6211C8AC0420031A5E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DBF6201C8AC0420031A5E3 /* main.m */; };
+		13DBF6241C8AC0420031A5E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DBF6231C8AC0420031A5E3 /* AppDelegate.m */; };
+		13DBF62C1C8AC0420031A5E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13DBF62B1C8AC0420031A5E3 /* Assets.xcassets */; };
+		13DBF62F1C8AC0420031A5E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13DBF62D1C8AC0420031A5E3 /* LaunchScreen.storyboard */; };
+		13DBF63C1C8AC4370031A5E3 /* DoubleSliderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DBF63B1C8AC4370031A5E3 /* DoubleSliderController.m */; };
+		13DBF6401C8AC82B0031A5E3 /* WWLTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DBF63F1C8AC82B0031A5E3 /* WWLTabController.m */; };
+		13DBF6431C8AC8710031A5E3 /* WWLUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DBF6421C8AC8710031A5E3 /* WWLUserController.m */; };
+		13DBF6461C8ED2840031A5E3 /* WWLMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DBF6451C8ED2840031A5E3 /* WWLMainController.m */; };
+		804407014441A13A96CBBA0A /* libPods-DoubleSlider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 339B688D3BBCFDA11F8D7104 /* libPods-DoubleSlider.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13DBF61C1C8AC0420031A5E3 /* DoubleSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13DBF6201C8AC0420031A5E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13DBF6221C8AC0420031A5E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13DBF6231C8AC0420031A5E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13DBF62B1C8AC0420031A5E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13DBF62E1C8AC0420031A5E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13DBF6301C8AC0420031A5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13DBF63A1C8AC4370031A5E3 /* DoubleSliderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DoubleSliderController.h; path = Controller/DoubleSliderController.h; sourceTree = "<group>"; };
+		13DBF63B1C8AC4370031A5E3 /* DoubleSliderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DoubleSliderController.m; path = Controller/DoubleSliderController.m; sourceTree = "<group>"; };
+		13DBF63D1C8AC4760031A5E3 /* DoubleSlider.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleSlider.pch; sourceTree = "<group>"; };
+		13DBF63E1C8AC82B0031A5E3 /* WWLTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWLTabController.h; path = Controller/WWLTabController.h; sourceTree = "<group>"; };
+		13DBF63F1C8AC82B0031A5E3 /* WWLTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWLTabController.m; path = Controller/WWLTabController.m; sourceTree = "<group>"; };
+		13DBF6411C8AC8710031A5E3 /* WWLUserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWLUserController.h; path = Controller/WWLUserController.h; sourceTree = "<group>"; };
+		13DBF6421C8AC8710031A5E3 /* WWLUserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWLUserController.m; path = Controller/WWLUserController.m; sourceTree = "<group>"; };
+		13DBF6441C8ED2840031A5E3 /* WWLMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWLMainController.h; path = Controller/WWLMainController.h; sourceTree = "<group>"; };
+		13DBF6451C8ED2840031A5E3 /* WWLMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWLMainController.m; path = Controller/WWLMainController.m; sourceTree = "<group>"; };
+		339B688D3BBCFDA11F8D7104 /* libPods-DoubleSlider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DoubleSlider.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED1B626BC8A92CCBF0BE159 /* Pods-DoubleSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubleSlider.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoubleSlider/Pods-DoubleSlider.release.xcconfig"; sourceTree = "<group>"; };
+		EE3DCDAAC86360A35CC3B840 /* Pods-DoubleSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubleSlider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoubleSlider/Pods-DoubleSlider.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13DBF6191C8AC0420031A5E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804407014441A13A96CBBA0A /* libPods-DoubleSlider.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13DBF6131C8AC0410031A5E3 = {
+			isa = PBXGroup;
+			children = (
+				13DBF61E1C8AC0420031A5E3 /* DoubleSlider */,
+				13DBF61D1C8AC0420031A5E3 /* Products */,
+				51151988A64CFDB30B1FEE9C /* Pods */,
+				E8D112DDE6D5189FB95EFFF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13DBF61D1C8AC0420031A5E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13DBF61C1C8AC0420031A5E3 /* DoubleSlider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13DBF61E1C8AC0420031A5E3 /* DoubleSlider */ = {
+			isa = PBXGroup;
+			children = (
+				13DBF6391C8AC3DF0031A5E3 /* Controller */,
+				13DBF6221C8AC0420031A5E3 /* AppDelegate.h */,
+				13DBF6231C8AC0420031A5E3 /* AppDelegate.m */,
+				13DBF62B1C8AC0420031A5E3 /* Assets.xcassets */,
+				13DBF6301C8AC0420031A5E3 /* Info.plist */,
+				13DBF62D1C8AC0420031A5E3 /* LaunchScreen.storyboard */,
+				13DBF61F1C8AC0420031A5E3 /* Supporting Files */,
+			);
+			path = DoubleSlider;
+			sourceTree = "<group>";
+		};
+		13DBF61F1C8AC0420031A5E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13DBF6201C8AC0420031A5E3 /* main.m */,
+				13DBF63D1C8AC4760031A5E3 /* DoubleSlider.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13DBF6391C8AC3DF0031A5E3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				13DBF63A1C8AC4370031A5E3 /* DoubleSliderController.h */,
+				13DBF63B1C8AC4370031A5E3 /* DoubleSliderController.m */,
+				13DBF63E1C8AC82B0031A5E3 /* WWLTabController.h */,
+				13DBF63F1C8AC82B0031A5E3 /* WWLTabController.m */,
+				13DBF6411C8AC8710031A5E3 /* WWLUserController.h */,
+				13DBF6421C8AC8710031A5E3 /* WWLUserController.m */,
+				13DBF6441C8ED2840031A5E3 /* WWLMainController.h */,
+				13DBF6451C8ED2840031A5E3 /* WWLMainController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		51151988A64CFDB30B1FEE9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE3DCDAAC86360A35CC3B840 /* Pods-DoubleSlider.debug.xcconfig */,
+				3ED1B626BC8A92CCBF0BE159 /* Pods-DoubleSlider.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8D112DDE6D5189FB95EFFF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				339B688D3BBCFDA11F8D7104 /* libPods-DoubleSlider.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13DBF61B1C8AC0420031A5E3 /* DoubleSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13DBF6331C8AC0420031A5E3 /* Build configuration list for PBXNativeTarget "DoubleSlider" */;
+			buildPhases = (
+				1A936B7C3F1BC20520F80D44 /* Check Pods Manifest.lock */,
+				13DBF6181C8AC0420031A5E3 /* Sources */,
+				13DBF6191C8AC0420031A5E3 /* Frameworks */,
+				13DBF61A1C8AC0420031A5E3 /* Resources */,
+				E4998E2CF1B220FD6CDFF591 /* Embed Pods Frameworks */,
+				6B1279068A19F3A6C4E9347E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubleSlider;
+			productName = DoubleSlider;
+			productReference = 13DBF61C1C8AC0420031A5E3 /* DoubleSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13DBF6141C8AC0410031A5E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = spider;
+				TargetAttributes = {
+					13DBF61B1C8AC0420031A5E3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = NC35T27FWW;
+					};
+				};
+			};
+			buildConfigurationList = 13DBF6171C8AC0410031A5E3 /* Build configuration list for PBXProject "DoubleSlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13DBF6131C8AC0410031A5E3;
+			productRefGroup = 13DBF61D1C8AC0420031A5E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13DBF61B1C8AC0420031A5E3 /* DoubleSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13DBF61A1C8AC0420031A5E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13DBF62F1C8AC0420031A5E3 /* LaunchScreen.storyboard in Resources */,
+				13DBF62C1C8AC0420031A5E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A936B7C3F1BC20520F80D44 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B1279068A19F3A6C4E9347E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoubleSlider/Pods-DoubleSlider-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4998E2CF1B220FD6CDFF591 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoubleSlider/Pods-DoubleSlider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13DBF6181C8AC0420031A5E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13DBF63C1C8AC4370031A5E3 /* DoubleSliderController.m in Sources */,
+				13DBF6241C8AC0420031A5E3 /* AppDelegate.m in Sources */,
+				13DBF6401C8AC82B0031A5E3 /* WWLTabController.m in Sources */,
+				13DBF6461C8ED2840031A5E3 /* WWLMainController.m in Sources */,
+				13DBF6211C8AC0420031A5E3 /* main.m in Sources */,
+				13DBF6431C8AC8710031A5E3 /* WWLUserController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13DBF62D1C8AC0420031A5E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13DBF62E1C8AC0420031A5E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13DBF6311C8AC0420031A5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13DBF6321C8AC0420031A5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13DBF6341C8AC0420031A5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3DCDAAC86360A35CC3B840 /* Pods-DoubleSlider.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DoubleSlider/DoubleSlider.pch";
+				INFOPLIST_FILE = DoubleSlider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spider.DoubleSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13DBF6351C8AC0420031A5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ED1B626BC8A92CCBF0BE159 /* Pods-DoubleSlider.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DoubleSlider/DoubleSlider.pch";
+				INFOPLIST_FILE = DoubleSlider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spider.DoubleSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13DBF6171C8AC0410031A5E3 /* Build configuration list for PBXProject "DoubleSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13DBF6311C8AC0420031A5E3 /* Debug */,
+				13DBF6321C8AC0420031A5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13DBF6331C8AC0420031A5E3 /* Build configuration list for PBXNativeTarget "DoubleSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13DBF6341C8AC0420031A5E3 /* Debug */,
+				13DBF6351C8AC0420031A5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13DBF6141C8AC0410031A5E3 /* Project object */;
+}
